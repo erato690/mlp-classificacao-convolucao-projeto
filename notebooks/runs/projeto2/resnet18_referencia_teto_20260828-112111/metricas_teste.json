@@ -1,0 +1,19 @@
+{
+  "run": "resnet18_referencia_teto",
+  "checkpoint_epoca": 12,
+  "matriz_confusao": {
+    "tn": 148,
+    "fp": 86,
+    "fn": 2,
+    "tp": 388
+  },
+  "accuracy": 0.8589743589743589,
+  "sensitivity": 0.9948717948717949,
+  "specificity": 0.6324786324786325,
+  "acuracia_balanceada": 0.8136752136752137,
+  "auroc": 0.9625301336839799,
+  "auprc": 0.9722636552913786,
+  "auroc_validacao": 0.999470769463398,
+  "delta_auroc_val_teste": 0.036940635779418085,
+  "params_totais": 11177538
+}

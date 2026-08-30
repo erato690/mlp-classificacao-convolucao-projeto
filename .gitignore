@@ -9,9 +9,18 @@ wheels/
 # Virtual environments
 .venv
 
-# Dataset baixado
-#data/
+# ---------------------------------------------------------------
+# Checkpoints
+#
+# Versionados: os 5 modelos canonicos em runs/projeto2/checkpoints/,
+# citados no README e no relatorio.
+#
+# Ignorados: os tres .pt que o run de ablacao salva no proprio diretorio.
+# Sao reproduziveis executando o notebook -- a rubrica aceita "checkpoints
+# dos melhores modelos OU instrucoes de reproducao", e o README traz as
+# instrucoes. O checkpoint da entrega e o da ResNet-18 vao versionados.
+# ---------------------------------------------------------------
+notebooks/runs/projeto2/ablacao_*/*.pt
 
-# Artefatos de treino (checkpoints, logs do TensorBoard)
-#notebooks/runs/
-#*.pt
+# O dataset do Projeto 2 (~2,4 GB) e baixado pelo kagglehub em ~/.cache.
+# O do Projeto 1 (52 KB) esta versionado em data/.

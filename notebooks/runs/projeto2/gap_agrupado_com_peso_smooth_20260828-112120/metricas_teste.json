@@ -1,0 +1,19 @@
+{
+  "run": "gap_agrupado_com_peso_smooth",
+  "checkpoint_epoca": 16,
+  "matriz_confusao": {
+    "tn": 150,
+    "fp": 84,
+    "fn": 7,
+    "tp": 383
+  },
+  "accuracy": 0.8541666666666666,
+  "sensitivity": 0.982051282051282,
+  "specificity": 0.6410256410256411,
+  "acuracia_balanceada": 0.8115384615384615,
+  "auroc": 0.9301446416831033,
+  "auprc": 0.9345925743231642,
+  "baseline_majoritario": 0.625,
+  "auroc_validacao": 0.9968624189615741,
+  "delta_auroc_val_teste": 0.06671777727847084
+}

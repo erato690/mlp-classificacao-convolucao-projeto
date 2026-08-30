@@ -1,0 +1,22 @@
+{
+  "run": "gap_agrupado_com_peso_smooth",
+  "checkpoint_epoca": 27,
+  "matriz_confusao": {
+    "tn": 144,
+    "fp": 90,
+    "fn": 7,
+    "tp": 383
+  },
+  "accuracy": 0.844551282051282,
+  "sensitivity": 0.982051282051282,
+  "specificity": 0.6153846153846154,
+  "acuracia_balanceada": 0.7987179487179488,
+  "auroc": 0.9277339469647162,
+  "auprc": 0.938480061026558,
+  "baseline_majoritario": 0.625,
+  "threshold_validacao": 0.68,
+  "threshold_validacao_sens_teste": 0.9615384615384616,
+  "threshold_validacao_spec_teste": 0.7435897435897436,
+  "auroc_validacao": 0.9969191222333528,
+  "delta_auroc_val_teste": 0.06918517526863655
+}
